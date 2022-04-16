@@ -12,6 +12,11 @@ public class NumeroCapicua {
 		int resu= Integer.parseInt(resultado);
 		return resu;
 	}
+	/**
+	 * Método que da la vuelta al número y comprueba si es igual al original, de esta forma se sabe si es capicua
+	 * @param numero
+	 * @return
+	 */
 	public static boolean esCapicua(int numero) {
 		int numalreves = darLaVuelta(numero);
 		if(numero == numalreves) {
